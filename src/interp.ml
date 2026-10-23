@@ -1,8 +1,3 @@
-(* ********************* *)
-(* UWAGA! *)
-(* Sam interpreter i resztę pliku (z wyjątkiem typu value) można dowolnie modyfikować. *)
-(* Liczy się to, zeby funkcja eval_spreadsheet zwracała poprawną wartość! *)
-(* ********************* *)
 open Ast
 
 module M = Map.Make(String)
